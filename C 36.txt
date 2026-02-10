@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+    int a=5;
+    int b=++a;
+    printf("%d\n",b);
+    int c=10;
+    int d=++c;
+    printf("%d\n",d);
+    int e=0;
+    int f=++e;
+    printf("%d",f);
+}
