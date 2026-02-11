@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    char n='E';
+    switch(n){
+        case 'A':printf("Vowel");
+        break;
+        case 'E':printf("Vowel");
+        break;
+        case 'I':printf("Vowel");
+        break;
+        case 'O':printf("Vowel");
+        break;
+        case 'U':printf("Vowel");
+        break;
+        ;
+    }
+}
