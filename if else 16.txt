@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main() {
+    int x=5,y=5,z=5;
+    if(x==y&&y==z){
+        printf("Equilateral triangle"); }
+    else{
+        printf("Not equilateral"); }
+}
