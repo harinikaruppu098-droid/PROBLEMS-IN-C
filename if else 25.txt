@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+ {
+    int choice=1;
+    int a=10,b=20;
+    switch(choice){
+        case 1:printf("Sum = %d",a+b);
+        break;
+        case 2:printf("DIFFERENCE=%d",a-b);
+    }
+    return 0;
+}
