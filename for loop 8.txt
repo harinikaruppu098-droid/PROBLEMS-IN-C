@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int num,rev=0,rem;
+    num=123;
+    for(;num!=0;num/=10){
+        rem=num%10;
+        rev=rev*10+rem;}
+      printf("%d ",rev);
+}
